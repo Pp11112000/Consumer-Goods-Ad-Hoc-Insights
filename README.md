@@ -30,7 +30,7 @@ Imagine yourself as the applicant for this role and perform the following task
  - Learnt how to work and deal with the large amount of the data.
  - Learnt how to write SQL queries for getting some required meaningful output from the data table.
  - Got to know about some Advanced SQL concepts like Common Table Expression(CTEs), Self Joins, Pivoting data with case and aslo learned below concepts as well:
- ### Satements, Clauses, Aggregate Functions, Joins, Functions, Conditions, Keywords.
+ - Satements, Clauses, Aggregate Functions, Joins, Functions, Conditions, Keywords.
  
 
 
