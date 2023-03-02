@@ -14,7 +14,7 @@ Imagine yourself as the applicant for this role and perform the following task
 2.    You need to run a SQL query to answer these requests. 
 3.    The target audience of this dashboard is top-level management - hence you need to create a presentation to show the insights.
 
-### Other resources Provided:
+### Resources Provided:
 
 -    Dataset :  
 -    Metadata (Comprehensive overview of the tables present in database) : 
@@ -34,7 +34,7 @@ Imagine yourself as the applicant for this role and perform the following task
  
 
 
-# Insights got from the SQL queries
+# Insights got from the SQL Queries
 
 1. List of Markets in which Customer "Atliq Exclusive" operates its business in APAC region are India, Indonesia, Japan, Philiphines, South Korea, Australia, New Zealand and Bangladesh.
 2. Total Unique Product Count in 2020 is 245.Total Unique Product Count in 2021 is 334. Increase in % of Product Count is 36.33%.
