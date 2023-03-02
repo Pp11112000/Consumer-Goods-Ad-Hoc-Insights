@@ -16,9 +16,9 @@ Imagine yourself as the applicant for this role and perform the following task
 
 ### Resources Provided:
 
--    Dataset : Resources Provided/atliq_hardware_db.zip
--    Metadata (Comprehensive overview of the tables present in database) : https://github.com/Pp11112000/Consumer-Goods-Ad_Hoc-Project/blob/main/Resources%20Provided/Metadata.txt
--    PDF of Ad-Hoc requests : https://github.com/Pp11112000/Consumer-Goods-Ad_Hoc-Project/blob/main/Resources%20Provided/ad-hoc-requests.pdf
+- Dataset : https://github.com/Pp11112000/Consumer-Goods-Ad_Hoc-Project/blob/main/Resources%20Provided/atliq_hardware_db.zip
+- Metadata (Comprehensive overview of the tables present in database) : https://github.com/Pp11112000/Consumer-Goods-Ad_Hoc-Project/blob/main/Resources%20Provided/Metadata.txt
+- PDF of Ad-Hoc requests : https://github.com/Pp11112000/Consumer-Goods-Ad_Hoc-Project/blob/main/Resources%20Provided/ad-hoc-requests.pdf
 
 
 # Technologies Used
@@ -46,5 +46,3 @@ Imagine yourself as the applicant for this role and perform the following task
 8. 1st Quarter of 2020 i.e. {Sept, Oct, Nov} has the maximum Total Sold Quantity.
 9. Channel ‘Retailer’ helped to bring more Gross Sales in the fiscal year 2021 with the total of 73% contribution.
 10. Top 3 products in each division (N&S, P&A, PC) that have a high Total Sold Quantity in the Fiscal Year 2021 are shown in the chart.
-
-
