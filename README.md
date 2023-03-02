@@ -18,7 +18,7 @@ Imagine yourself as the applicant for this role and perform the following task
 
 -    Dataset : Resources Provided/atliq_hardware_db.zip
 -    Metadata (Comprehensive overview of the tables present in database) : 
--    PDF of Ad-Hoc requests :
+-    PDF of Ad-Hoc requests : https://github.com/Pp11112000/Consumer-Goods-Ad_Hoc-Project/blob/main/Resources%20Provided/ad-hoc-requests.pdf
 
 
 # Technologies Used
