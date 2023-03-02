@@ -16,7 +16,7 @@ Imagine yourself as the applicant for this role and perform the following task
 
 ### Resources Provided:
 
--    Dataset :  
+-    Dataset : Resources Provided/atliq_hardware_db.zip
 -    Metadata (Comprehensive overview of the tables present in database) : 
 -    PDF of Ad-Hoc requests :
 
