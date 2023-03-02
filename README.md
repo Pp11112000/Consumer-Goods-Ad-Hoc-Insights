@@ -16,10 +16,10 @@ Imagine yourself as the applicant for this role and perform the following task
 
 ### Other resources Provided:
 
--    Dataset required to provide 
--    Metadata
--    Hints (try not to use the hints to develop your skills quicker)
--    Sample questions and Presentation
+-    Dataset :  
+-    Metadata (Comprehensive overview of the tables present in database) : 
+-    PDF of Ad-Hoc requests :
+
 
 # Technologies Used
  - MySQL Workbench (For SQL)
