@@ -36,12 +36,21 @@ Imagine yourself as the applicant for this role and perform the following task
 # Insights got from the SQL Queries
 
 1. List of Markets in which Customer "Atliq Exclusive" operates its business in APAC region are India, Indonesia, Japan, Philiphines, South Korea, Australia, New Zealand and Bangladesh.
+
 2. Total Unique Product Count in 2020 is 245.Total Unique Product Count in 2021 is 334. Increase in % of Product Count is 36.33%.
+
 3. In total we have 6 segments and Accessories and Peripherals hold the maximum unique product count.
+
 4. Accessories segment has the most increase in unique product in 2021 vs 2020.
+
 5. ‘AQ Master Wired x1 Ms’ has the highest manufacturing cost while ‘AQ HOME Allin 1 Gen 2’ has the lowest manufacturing cost.
+
 6. Top 5 customers who received an average high ‘Pre Invoice Discount’ for the fiscal year 2021 and in the Indian market are: Flipkart, Viveks, Ezone, Croma, Amazon.
+
 7. Nov 2020 has the highest while March 2020 has the lowest Gross sales for the customer ‘Atliq Exclusive’.
+
 8. 1st Quarter of 2020 i.e. {Sept, Oct, Nov} has the maximum Total Sold Quantity.
+
 9. Channel ‘Retailer’ helped to bring more Gross Sales in the fiscal year 2021 with the total of 73% contribution.
+
 10. Top 3 products in each division (N&S, P&A, PC) that have a high Total Sold Quantity in the Fiscal Year 2021 are shown in the chart.
