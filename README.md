@@ -1,5 +1,9 @@
 # Consumer-Goods-ad_hoc-Project
 
+### Demo
+
+"D:\PRANIT PATIL\Data Analyst\Projects\Resume Projects\Consumer Goods Ad-Hoc Insights\Consumer Goods Ad-Hoc Project\Consumer Goods Ad-Hoc Project.mp4"
+
 ### Problem Statement
 Atliq Hardware’s is one of the leading computer hardware producers in India and well expanded in other countries too. However, the management wanted to get enough 
 insights such as understanding changing consumer preferences, focusing on sustainability, building brand loyalty, customer behavior, preferences, and trends. By 
