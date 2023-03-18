@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/95831940/226099356-5a2baeb1-68d2-41d2-
 
 ### Power BI Dashboard Link
 
-https://app.powerbi.com/view?r=eyJrIjoiOTk5MTM5MWItODMwZS00OGVlLTlkOGYtZjY4YmExMDRkOGM0IiwidCI6ImNjOTdlOGYzLTk0MjYtNDUzNi04ZDY4LWU2NTFlM2Q4MmQwZiJ9
+
 
 ### Problem Statement
 Atliq Hardware’s is one of the leading computer hardware producers in India and well expanded in other countries too. However, the management wanted to get enough 
