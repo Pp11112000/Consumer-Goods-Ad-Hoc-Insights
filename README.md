@@ -2,7 +2,7 @@
 
 ### Demo
 
-"D:\PRANIT PATIL\Data Analyst\Projects\Resume Projects\Consumer Goods Ad-Hoc Insights\Consumer Goods Ad-Hoc Project\Consumer Goods Ad-Hoc Project.mp4"
+https://user-images.githubusercontent.com/95831940/226099356-5a2baeb1-68d2-41d2-a2ac-8f6e58d29296.mp4
 
 ### Problem Statement
 Atliq Hardware’s is one of the leading computer hardware producers in India and well expanded in other countries too. However, the management wanted to get enough 
