@@ -4,7 +4,11 @@
 
 https://user-images.githubusercontent.com/95831940/226099356-5a2baeb1-68d2-41d2-a2ac-8f6e58d29296.mp4
 
-### Power BI Dashboard Link
+### Dashboard Links
+
+- Novypro Dashboard: https://www.novypro.com/project/consumer-goods-ad-hoc-requests
+
+- Power BI Service: https://app.powerbi.com/view?r=eyJrIjoiMjAzMDZmYTQtZDRlYS00YzNhLTk0NzEtMmQyNDgwMjc0ZDExIiwidCI6ImNjOTdlOGYzLTk0MjYtNDUzNi04ZDY4LWU2NTFlM2Q4MmQwZiJ9
 
 
 
