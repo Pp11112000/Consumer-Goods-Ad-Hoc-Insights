@@ -45,7 +45,7 @@ Imagine yourself as the applicant for this role and perform the following task
  
 
 
-# Insights got from the SQL Queries
+# Insights 
 
 1. List of Markets in which Customer "Atliq Exclusive" operates its business in APAC region are India, Indonesia, Japan, Philiphines, South Korea, Australia, New Zealand and Bangladesh.
 
@@ -66,3 +66,15 @@ Imagine yourself as the applicant for this role and perform the following task
 9. Channel ‘Retailer’ helped to bring more Gross Sales in the fiscal year 2021 with the total of 73% contribution.
 
 10. Top 3 products in each division (N&S, P&A, PC) that have a high Total Sold Quantity in the Fiscal Year 2021 are shown in the chart.
+
+### Documentation
+
+[High Level Documentation]()
+
+[Low Level Documentation]()
+
+[Architecture Documentation]()
+
+[WireFrame]()
+
+[Detail Project Report]()
