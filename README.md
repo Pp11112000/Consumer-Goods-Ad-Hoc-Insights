@@ -69,7 +69,7 @@ Imagine yourself as the applicant for this role and perform the following task
 
 ### Documentation
 
-[High Level Documentation]()
+[High Level Documentation](https://github.com/Pp11112000/Consumer-Goods-Ad-Hoc-Insights/blob/main/Documentation/HLD%20(High%20Level%20Design).pdf)
 
 [Low Level Documentation]()
 
