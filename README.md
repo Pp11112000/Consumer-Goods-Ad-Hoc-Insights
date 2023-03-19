@@ -73,7 +73,7 @@ Imagine yourself as the applicant for this role and perform the following task
 
 [Low Level Documentation](https://github.com/Pp11112000/Consumer-Goods-Ad-Hoc-Insights/blob/main/Documentation/LLD%20(Low%20Level%20Design).pdf)
 
-[Architecture Documentation]()
+[Architecture Documentation](https://github.com/Pp11112000/Consumer-Goods-Ad-Hoc-Insights/blob/main/Documentation/Architecture%20Design.pdf)
 
 [WireFrame]()
 
