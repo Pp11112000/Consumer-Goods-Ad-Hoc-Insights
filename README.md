@@ -77,4 +77,4 @@ Imagine yourself as the applicant for this role and perform the following task
 
 [WireFrame](https://github.com/Pp11112000/Consumer-Goods-Ad-Hoc-Insights/blob/main/Documentation/Wireframe%20Document.pdf)
 
-[Detail Project Report]()
+[Detail Project Report](https://github.com/Pp11112000/Consumer-Goods-Ad-Hoc-Insights/blob/main/Documentation/Presentation.pdf)
