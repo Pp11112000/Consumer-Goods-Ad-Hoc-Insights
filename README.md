@@ -2,7 +2,7 @@
 
 ### Demo
 
-https://user-images.githubusercontent.com/95831940/226253400-00b22479-bb73-465f-969d-2e3588fc0af4.mp4
+
 
 ### Dashboard Links
 
