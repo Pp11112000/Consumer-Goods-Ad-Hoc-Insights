@@ -1,4 +1,4 @@
-# Consumer-Goods-ad_hoc-Project
+# Consumer Goods ad-hoc Project
 
 ### Demo Video
 
