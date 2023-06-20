@@ -1,20 +1,18 @@
 use gdb023;
-## Q1
--- Provide the list of markets in which customer "Atliq Exclusive" operates its
--- business in the APAC region.
+
+Q1) Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
+ANS:
 
 select distinct market 
 from dim_customer
 where customer = 'Atliq Exclusive' and region = 'APAC';
 
 
-## Q2
--- What is the percentage of unique product increase in 2021 vs. 2020? The
--- final output contains these fields,
+Q2) What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields,
 -- unique_products_2020
 -- unique_products_2021
 -- percentage_chg
-
+ANS:
 
 with up_2020 as (select count(distinct product_code) as unique_products_2020 
 				from fact_sales_monthly 
@@ -28,12 +26,10 @@ select *
 from up_2020, up_2021, percent_chng;
 
 
-## Q3 : 
--- Provide a report with all the unique product counts for each segment and
--- sort them in descending order of product counts. The final output contains
--- 2 fields,
+Q3) Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. The final output contains 2 fields,
 -- segment
 -- product_count
+ANS:
 
 select segment, count(distinct product_code) as product_count 
 from dim_product
@@ -41,15 +37,12 @@ group by segment
 order by product_count desc;
 
 
-#Q4:
--- Follow-up: Which segment had the most increase in unique products in
--- 2021 vs 2020? The final output contains these fields,
+Q4) Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields,
 -- segment
 -- product_count_2020
 -- product_count_2021
 -- difference
-
-
+ANS:
 
 with f_2020 as (select segment, count(distinct product_code) as product_count_2020
 			from dim_product
@@ -70,13 +63,11 @@ using (segment)
 order by difference desc;
 
 
-#Q5:
---  Get the products that have the highest and lowest manufacturing costs.
--- The final output should contain these fields,
+Q5) Get the products that have the highest and lowest manufacturing costs. The final output should contain these fields,
 -- product_code
 -- product
 -- manufacturing_cost
-
+ANS:
 
 select product_code, product, manufacturing_cost
 from dim_product
@@ -88,13 +79,12 @@ where manufacturing_cost in (
         );
         
         
-#Q6:
--- Generate a report which contains the top 5 customers who received an
--- average high pre_invoice_discount_pct for the fiscal year 2021 and in the
--- Indian market. The final output contains these fields,
+Q6) Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. 
+The final output contains these fields,
 -- customer_code
 -- customer
 -- average_discount_percentage
+ANS:
 
 with cte1 as(select customer_code, customer, round(avg(pre_invoice_discount_pct)*100) as average_discount_percentage
 			from dim_customer c
@@ -106,16 +96,12 @@ with cte1 as(select customer_code, customer, round(avg(pre_invoice_discount_pct)
 select customer_code, customer, concat(average_discount_percentage,'%') as average_discount_percentage
 from cte1;
 
-
-# Q7:
--- Get the complete report of the Gross sales amount for the customer “Atliq
--- Exclusive” for each month. This analysis helps to get an idea of low and
--- high-performing months and take strategic decisions.
--- The final report contains these columns:
+Q7) Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month. 
+This analysis helps to get an idea of low and high-performing months and take strategic decisions. The final report contains these columns:
 -- Month
 -- Year
 -- Gross sales Amount
-
+ANS:
 
 select month(date) as month,
 	   year(date) as year,
@@ -129,12 +115,10 @@ where customer = 'Atliq Exclusive'
 group by month, year
 order by year, month;
 
-
-# Q8
--- In which quarter of 2020, got the maximum total_sold_quantity? The final
--- output contains these fields sorted by the total_sold_quantity,
+Q8) In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity:
 -- Quarter
 -- total_sold_quantity
+ANS:
 
 with  quarters as (select *,
 				case
@@ -150,13 +134,11 @@ from quarters
 group by Quarter
 order by total_sold_quantity desc;
 
-
-#Q9:
--- Which channel helped to bring more gross sales in the fiscal year 2021
--- and the percentage of contribution? The final output contains these fields,
+Q9) Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution? The final output contains these fields,
 -- channel
 -- gross_sales_mln
 -- percentage
+ANS:
 
 with cte1 as(select 
 			channel, 
@@ -175,15 +157,13 @@ select *,
     
   
   
-#Q10:
--- Get the Top 3 products in each division that have a high
--- total_sold_quantity in the fiscal_year 2021? The final output contains these fields,
+Q10) Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021? The final output contains these fields,
 -- division
 -- product_code
 -- product
 -- total_sold_quantity
 -- rank_order
-
+ANS:
 
 with cte1 as (select 
 				division, p.product_code, product, sum(sold_quantity) as total_sold_quantity
